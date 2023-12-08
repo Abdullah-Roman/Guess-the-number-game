@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.parent {
+  display: flex;
+  justify-content: center;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 400px;
+  background-color: brown;
+  color: rgb(123, 189, 30);
+}
+
+h1,
+label {
+  padding: 0.5rem 1rem;
+}
+input {
+  margin: 0 2rem;
+  margin-top: 1rem;
+  padding: 3px;
+  border-radius: 10px;
+  color: black;
+}
+
+.two,
+.three,
+.four {
+  display: none;
+}
+
+button {
+  padding: 4px 20px;
+  background-color: rgb(177, 94, 94);
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+p {
+  padding: 5px;
+}
